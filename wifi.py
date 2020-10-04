@@ -90,7 +90,6 @@ def main():
 	elif(uii=="update"):
 
   		print("updating!")
-		os.system("rm -rf *")
   		os.system("git clone https://github.com/abalesluke/wifi-hack")
   		print("Updated successfully!")  
 	else:
