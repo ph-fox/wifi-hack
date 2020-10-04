@@ -90,10 +90,8 @@ def main():
 	elif(uii=="update"):
 
   		print("updating!")
+		os.system("rm -rf *")
   		os.system("git clone https://github.com/abalesluke/wifi-hack")
-  		os.system("rm -rf README.md")
-		os.system("rm -rf wifi.py")
-		os.system("rm -rf con")
   		print("Updated successfully!")  
 	else:
 		print("Error! Command not found!")
