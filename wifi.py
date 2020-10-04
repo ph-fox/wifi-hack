@@ -1,4 +1,4 @@
-import colorama, time
+import colorama, time, os, sys
 from con.wi import *
 from colorama import *
 
@@ -35,7 +35,8 @@ def main():
 +|                                         |+
 +|     scan    -- To scan or find hidden   |+
 +|                   wifi name's.          |+
-+|     Help     -- To show commands        |+
++|     Help    -- To show commands         |+
++|    update   --   To update to tool      |+                       
  ===========================================  
 		
 		""")
@@ -84,9 +85,16 @@ def main():
 	elif(uii=="scan"):
 		print("\nSorry this feature comming soon!!")
 		main()
+	elif(uii=="update):
+	     print("updating!.")
+	     os.system("cd ..")
+	     os.system("rm -rf wifi-hack/
+	     os.system("git clone https://github.com/abalesluke/wifi-hack")
+	     print("Done!!")
 	else:
 		print("Error! Command not found!")
 		print("try typing 'help'")
+		main()
 main()
 
 
