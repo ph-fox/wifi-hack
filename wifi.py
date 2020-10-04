@@ -41,7 +41,7 @@ def main():
 		""")
 		main()
 		
-	elif(uii =="About"):
+	elif(uii =="about"):
 		print("""
 		
 	=============================================
@@ -78,6 +78,11 @@ def main():
 	 ===========================================  		
 		
 		""")
+		main()
+	elif(uii=="exit"):
+		return
+	elif(uii=="scan"):
+		print("\nSorry this feature comming soon!!")
 		main()
 	else:
 		print("Error! Command not found!")
