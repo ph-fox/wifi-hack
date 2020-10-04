@@ -1,5 +1,4 @@
 import colorama, time, os, sys
-from py import *
 from con.wi import *
 from colorama import *
 
