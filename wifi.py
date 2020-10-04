@@ -1,4 +1,5 @@
-import colorama, time, os, sys
+import colorama, time, py
+from py import *
 from con.wi import *
 from colorama import *
 
@@ -86,11 +87,7 @@ def main():
 		print("\nSorry this feature comming soon!!")
 		main()
 	elif(uii=="update"):
-	     print("updating!.")
-	     os.system("cd ..")
-	     os.system("rm -rf wifi-hack/")
-	     os.system("git clone https://github.com/abalesluke/wifi-hack")
-	     print("Done!!")
+	   	update()
 	else:
 		print("Error! Command not found!")
 		print("try typing 'help'")
