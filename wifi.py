@@ -39,6 +39,8 @@ def main():
  ===========================================  
 		
 		""")
+		main()
+		
 	elif(uii =="About"):
 		print("""
 		
@@ -76,6 +78,7 @@ def main():
 	 ===========================================  		
 		
 		""")
+		main()
 	else:
 		print("Error! Command not found!")
 		print("try typing 'help'")
