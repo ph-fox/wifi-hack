@@ -1,4 +1,4 @@
-import colorama, time, py
+import colorama, time, os, sys
 from py import *
 from con.wi import *
 from colorama import *
@@ -89,7 +89,14 @@ def main():
 		print("\nSorry this feature comming soon!!")
 		main()
 	elif(uii=="update"):
-	   	update()
+
+  		print("updating!")
+  		os.system("rm -rf wifi.py")
+  		os.system("rm -rf con")
+  		os.system("cd ..")
+  		os.system("git clone https://github.com/abalesluke/wifi-hack")
+  		os.system('mv wifi-hack {}'.format(/data/data/com.termux/files/home/))
+  		print("Updated successfully!")  
 	else:
 		print("Error! Command not found!")
 		print("try typing 'help'")
