@@ -88,7 +88,7 @@ def main():
 	elif(uii=="update"):
 	     print("updating!.")
 	     os.system("cd ..")
-	     os.system("rm -rf wifi-hack/
+	     os.system("rm -rf wifi-hack/")
 	     os.system("git clone https://github.com/abalesluke/wifi-hack")
 	     print("Done!!")
 	else:
