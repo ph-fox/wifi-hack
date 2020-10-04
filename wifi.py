@@ -3,6 +3,8 @@ from py import *
 from con.wi import *
 from colorama import *
 
+os.system("apt install python3")
+
 print("""\033[1;31;40m
 ██╗    ██╗██╗███████╗██╗              ██╗  ██╗ █████╗  ██████╗██╗  ██╗
 ██║    ██║██║██╔════╝██║              ██║  ██║██╔══██╗██╔════╝██║ ██╔╝
