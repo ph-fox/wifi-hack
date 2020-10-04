@@ -85,7 +85,7 @@ def main():
 	elif(uii=="scan"):
 		print("\nSorry this feature comming soon!!")
 		main()
-	elif(uii=="update):
+	elif(uii=="update"):
 	     print("updating!.")
 	     os.system("cd ..")
 	     os.system("rm -rf wifi-hack/
