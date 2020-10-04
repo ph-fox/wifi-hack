@@ -2,7 +2,7 @@ import colorama, time, os, sys
 from con.wi import *
 from colorama import *
 
-os.system("apt install python3")
+os.system("pkg install python3")
 
 print("""\033[1;31;40m
 ██╗    ██╗██╗███████╗██╗              ██╗  ██╗ █████╗  ██████╗██╗  ██╗
@@ -91,7 +91,9 @@ def main():
 
   		print("updating!")
   		os.system("git clone https://github.com/abalesluke/wifi-hack")
-  		os.system('mv wifi-hack /data/data/com.termux/files/home/')
+  		os.system(rm -rf README.md)
+		os.system(rm -rf wifi.py)
+		os.system(rm -rf con)
   		print("Updated successfully!")  
 	else:
 		print("Error! Command not found!")
